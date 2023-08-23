@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color generator</title>
+    <link rel="stylesheet" href="easy.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+          }
+          .center{
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+          }
+          
+          .btn{
+            background-color: rgb(33, 15, 97);
+            color: rgb(204, 225, 247);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 150px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            height: 60px;
+            font-size: 45px;
+          }
+    </style>
+</head>
+<body id="body">
+    <div class="center">
+        <button class="btn" onclick="changeColor()">Click</button>
+    </div>
+    <script src="./easy.js"></script>
+</body>
+</html>
