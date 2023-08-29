@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.center{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+  border: 3px solid #0c0c0c;
+  background: rgb(10 0 62 / 92%) !important;
+  border-radius: 20px;
+  color: #cba2c0;
+  display: block;
+  width: 8rem;
+  height: 2.925rem;
+  margin: 32px auto;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover{
+  font-size: 1rem;
+ cursor:pointer;
+ border:2px solid 
+#0c0c0c;
+ background:rgba(0,0 ,0 , 0.8)  !important;
+box-shadow:2px -2px 50px  
+black;
+transform:scale(1.05);
+
+}
+
+.btn:active{
+  border:2px solid 
+#5edf3d;
+ background:rgba(251, 126, 84, 0.3)  !important;
+ transform:scale(1);
+}
+.btn:visited{
+   background:rgba(251, 126, 84, 0.3);
+}
