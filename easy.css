@@ -44,6 +44,7 @@ transform:scale(1.05);
  background:rgba(251, 126, 84, 0.3)  !important;
  transform:scale(1);
 }
+
 .btn:visited{
    background:rgba(251, 126, 84, 0.3);
 }
